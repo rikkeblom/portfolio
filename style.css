@@ -20,11 +20,6 @@
   --box-shadow-inset: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
-.hidden {
-  display: none;
-  pointer-events: none;
-}
-
 .no-scroll {
   height: 100vh;
   overflow-y: hidden;
@@ -38,25 +33,30 @@ section {
 
 header {
   position: fixed;
-  background-color: "";
   top: 0;
+  height: fit-content;
+  z-index: 5;
+}
+
+.mainHeaderLine {
   width: calc(100vw - 17px);
   height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: "";
   transition: height 0.5s ease;
   transition: background-color 0.5s ease;
   z-index: 5;
 }
 
-header nav {
+.mainHeaderLine nav {
   display: flex;
   width: calc(100vw - var(--side-margin));
   justify-content: space-between;
 }
 
-header ul {
+.mainHeaderLine ul {
   display: flex;
   gap: 1rem;
   align-items: flex-end;
@@ -82,6 +82,22 @@ header a {
   color: white;
 }
 
+.smallNavCat {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: var(--dark-color-transparent);
+  user-select: none;
+}
+
+.smallNavCat li {
+  font-weight: 200;
+  line-height: 2rem;
+  padding: 0.5rem 1.5rem 1rem 0;
+}
+
 .blacknav {
   background-color: var(--dark-color);
   height: 3rem;
@@ -98,6 +114,33 @@ header a:hover {
 
 .active {
   border-bottom: 1px solid white;
+}
+
+#burgerIcon {
+  color: white;
+  font-size: 1.5rem;
+  align-self: center;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 601px) {
+  #burgerIcon {
+    display: none;
+  }
+
+  .smallNavCat {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #bigNavCat {
+    display: none;
+  }
+
+  /* .mainHeaderLine {
+    width: 100vw;
+  } */
 }
 
 /* --------------------------Buttons--------------------------- */
@@ -163,6 +206,8 @@ header a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: var(--box-shadow);
 }
 
 .img-wrap {
@@ -177,7 +222,7 @@ header a:hover {
   box-shadow: var(--box-shadow-inset);
   width: 100%;
   height: 100%;
-  background-image: url("img/exam-portfolio.PNG");
+  background-image: "";
   background-position: top center;
   background-size: cover;
   position: relative;
@@ -274,7 +319,7 @@ header a:hover {
   gap: 2rem;
 }
 
-i {
+#modal-flex i {
   position: absolute;
   color: var(--dark-color);
   right: 2rem;
@@ -282,7 +327,7 @@ i {
   cursor: pointer;
 }
 
-i:hover {
+#modal-flex i:hover {
   animation: cross 8s infinite linear;
   color: var(--dark-color-transparent);
   transform: scale(1.1);
@@ -312,4 +357,9 @@ footer {
   padding: 2rem 0;
   color: white;
   text-align: center;
+}
+
+.hidden {
+  display: none;
+  pointer-events: none;
 }

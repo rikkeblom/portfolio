@@ -19,13 +19,14 @@ async function start() {
   window.addEventListener("scroll", adjustHeader);
   document.querySelector("#modal-flex i").addEventListener("click", closeModal);
   document.querySelector("#modal-wrapper").addEventListener("click", closeModal);
+  document.querySelector("#burgerIcon").addEventListener("click", toggleMobileNav);
 }
 
 function adjustHeader() {
   if (window.scrollY <= 10) {
-    document.querySelector("header").classList.remove("blacknav");
+    document.querySelector(".mainHeaderLine").classList.remove("blacknav");
   } else {
-    document.querySelector("header").classList.add("blacknav");
+    document.querySelector(".mainHeaderLine").classList.add("blacknav");
   }
   setCurrentSection();
 }
@@ -126,4 +127,8 @@ function fillProjectGallery(project, i) {
   const parent = document.querySelector("#project-wrapper");
   //apend
   parent.appendChild(copy);
+}
+
+function toggleMobileNav() {
+  document.querySelector(".smallNavCat").classList.toggle("hidden");
 }
