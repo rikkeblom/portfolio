@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Trump Tweets",
+    "date": "oct 2020 - nov 2020",
+    "description": "I created this game during my first semester of multimedia design at KEA.",
+    "repository": "https://github.com/rikkeblom/project---Trump-Tweets",
+    "site": "https://rikkeblom.com/trump-tweets/",
+    "img": "img/trump-tweets.png"
+  },
+  {
+    "title": "Pumpkin Configurator",
+    "date": "oct 2021",
+    "description": "I created this configurator in collaboration with my classmate Carolyne Green.",
+    "repository": "https://github.com/carolynegreen/12c_02_04_Pumpkin-Configurator",
+    "site": "https://carolynegreen.github.io/12c_02_04_Pumpkin-Configurator/",
+    "img": "img/pumpkin-configurator.png"
+  },
+  {
+    "title": "Hogwarts Student List",
+    "date": "sep 2021",
+    "description": "This project was an exercise in handling and manipulating json data.",
+    "repository": "https://github.com/rikkeblom/11C.04.04---Hacked-Hogwarts-Student-List",
+    "site": "https://rikkeblom.github.io/11C.04.04---Hacked-Hogwarts-Student-List/",
+    "img": "img/hogwarts.png"
+  },
+  {
+    "title": "Silfen Website",
+    "date": "apr 2021 - may 2021",
+    "description": "Group project for Danish handbag company Silfen. We created a full digital marketing campaign and website.",
+    "repository": "https://github.com/rikkeblom/T9---SILFEN",
+    "site": "https://rikkeblom.github.io/T9---SILFEN/",
+    "img": "img/silfen.png"
+  },
+  {
+    "title": "BYU Studio Website",
+    "date": "oct 2020 - nov 2020",
+    "description": "Inisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit",
+    "repository": "https://github.com/carolynegreen/12c_02_04_Pumpkin-Configurator",
+    "site": "https://carolynegreen.github.io/12c_02_04_Pumpkin-Configurator/",
+    "img": "img/byu.png"
+  },
+  {
+    "title": "Exam Portfolio",
+    "date": "oct 2020 - nov 2020",
+    "description": "Inisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit",
+    "repository": "https://github.com/carolynegreen/12c_02_04_Pumpkin-Configurator",
+    "site": "https://carolynegreen.github.io/12c_02_04_Pumpkin-Configurator/",
+    "img": "img/exam-portfolio.PNG"
+  },
+  {
+    "title": "My First Website",
+    "date": "oct 2020 - nov 2020",
+    "description": "Inisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit",
+    "repository": "https://github.com/carolynegreen/12c_02_04_Pumpkin-Configurator",
+    "site": "https://carolynegreen.github.io/12c_02_04_Pumpkin-Configurator/",
+    "img": "img/tea.png"
+  },
+  {
+    "title": "Logo Pane & Unicinetto",
+    "date": "oct 2020 - nov 2020",
+    "description": "Inisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit",
+    "repository": "",
+    "site": "",
+    "img": "img/paneedunicinetto.png"
+  }
+]

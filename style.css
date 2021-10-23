@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: var(--body-font);
+}
+
+:root {
+  --dark-color: #5c6651;
+  --dark-color-transparent: #5c6651af;
+  --bright-color: #d8e0af;
+  --light-color: #f4f1ed;
+  --body-font: "Manrope", "Roboto", sans-serif;
+  --side-margin: max(2rem, 10%);
+  --bottom-margin: 0.5rem;
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --box-shadow-inset: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.hidden {
+  display: none;
+  pointer-events: none;
+}
+
+.no-scroll {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+section {
+  padding: 0 var(--side-margin) 0 var(--side-margin);
+}
+
+/* ---------------------HEADER--------------------- */
+
+header {
+  position: fixed;
+  background-color: "";
+  top: 0;
+  width: calc(100vw - 17px);
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: height 0.5s ease;
+  transition: background-color 0.5s ease;
+  z-index: 5;
+}
+
+header nav {
+  display: flex;
+  width: calc(100vw - var(--side-margin));
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  font-weight: 200;
+  line-height: 1.57rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header h1 {
+  grid-column-start: 1;
+  color: white;
+}
+
+header h1 span {
+  font-weight: 100;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.blacknav {
+  background-color: var(--dark-color);
+  height: 3rem;
+  transition: 0.5s ease;
+}
+
+header li {
+  border-bottom: 1px solid transparent;
+}
+
+header a:hover {
+  color: rgba(255, 255, 255, 0.685);
+}
+
+.active {
+  border-bottom: 1px solid white;
+}
+
+/* --------------------------Buttons--------------------------- */
+.button {
+  background-color: white;
+  color: grey;
+  display: block;
+  width: fit-content;
+  border: grey 2px solid;
+  padding: 0.8rem 1.5rem;
+  margin: 0rem auto;
+  text-decoration: none;
+  user-select: none;
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+  box-shadow: var(--box-shadow);
+}
+
+.button:hover {
+  background-color: grey;
+  color: white;
+  box-shadow: inset 0 0 0 2px white, var(--box-shadow);
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+/* ------------------------Sections------------------------- */
+
+#hero {
+  background-color: grey;
+  height: 50vh;
+}
+#about-me {
+  background-color: whitesmoke;
+  height: 50vh;
+}
+#skill-overview {
+  background-color: grey;
+  height: 50vh;
+}
+#cv {
+  background-color: whitesmoke;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+/* -----------------/Projects */
+#projects {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#projects h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem;
+}
+
+#project-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.img-wrap {
+  margin: 0 auto;
+  display: block;
+  height: 300px;
+  width: 100%;
+  background-color: white;
+}
+
+.img {
+  box-shadow: var(--box-shadow-inset);
+  width: 100%;
+  height: 100%;
+  background-image: url("img/exam-portfolio.PNG");
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.details {
+  position: absolute;
+  color: #fff;
+  width: 99%;
+  height: 45px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0.5%;
+  border-radius: 5px;
+  background-color: var(--dark-color);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: translateY(305px);
+  transition: 1s ease;
+}
+
+.img-wrap:hover .details {
+  transform: translateY(260px);
+  transition: 1s ease;
+}
+
+.details h3 {
+  margin-right: 1rem;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.details .readmore {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+}
+
+.details .readmore span {
+  font-weight: 900;
+}
+
+.details .readmore:hover {
+  color: rgba(255, 255, 255, 0.685);
+}
+
+/* --------------modal */
+#modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  z-index: 6;
+}
+
+#modal-flex {
+  position: relative;
+  width: min(600px, calc(100vw - var(--side-margin)));
+  height: fit-content;
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: var(--box-shadow);
+}
+
+#modal-image {
+  display: block;
+  width: 100%;
+  margin: 1rem auto;
+  box-shadow: var(--box-shadow);
+}
+
+#modal-title,
+#modal-date {
+  text-align: center;
+}
+
+#modal-description {
+  width: 90%;
+}
+
+#modal-buttons {
+  width: fit-content;
+  display: flex;
+  margin: 2rem auto 1rem auto;
+  gap: 2rem;
+}
+
+i {
+  position: absolute;
+  color: var(--dark-color);
+  right: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+i:hover {
+  animation: cross 8s infinite linear;
+  color: var(--dark-color-transparent);
+  transform: scale(1.1);
+}
+
+@keyframes cross {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* -------------contact */
+
+#contact {
+  background-color: whitesmoke;
+  height: 50vh;
+}
+
+/* -----------------------Footer------------------------- */
+
+footer {
+  background-color: var(--dark-color);
+  width: 100vw;
+  padding: 2rem 0;
+  color: white;
+  text-align: center;
+}
