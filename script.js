@@ -16,6 +16,7 @@ async function start() {
   loadJSON();
   adjustHeader();
   setCurrentSection();
+  console.log(checkDeviceType());
   window.addEventListener("scroll", adjustHeader);
   document.querySelector("#modal-flex i").addEventListener("click", closeModal);
   document.querySelector("#modal-wrapper").addEventListener("click", closeModal);
@@ -131,4 +132,20 @@ function fillProjectGallery(project, i) {
 
 function toggleMobileNav() {
   document.querySelector(".smallNavCat").classList.toggle("hidden");
+}
+
+function checkDeviceType() {
+  const ua = navigator.userAgent;
+  if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+    document.querySelector(".mainHeaderLine").style.width = "100vw";
+    return "tablet";
+  } else if (/Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+    document.querySelector(".mainHeaderLine").style.width = "100vw";
+    document.querySelectorAll(".img-wrap").forEach((project) => {
+      project.style.height = "200px";
+    });
+    return "mobile";
+  } else {
+    return "desktop";
+  }
 }
