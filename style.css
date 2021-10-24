@@ -354,6 +354,7 @@ header a:hover {
   background-color: white;
   height: fit-content;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   gap: 2rem;

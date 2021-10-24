@@ -135,6 +135,7 @@ function toggleMobileNav() {
 }
 
 function checkDeviceType() {
+  //code from: https://www.codegrepper.com/code-examples/javascript/javascript+get+device+type
   const ua = navigator.userAgent;
   if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
     document.querySelector(".mainHeaderLine").style.width = "100vw";
