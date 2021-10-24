@@ -181,8 +181,8 @@ header a:hover {
   background-color: grey;
   height: 50vh;
 }
-#cv {
-  background-color: whitesmoke;
+#resume {
+  background-color: var(--light-color);
   height: 15rem;
   display: flex;
   justify-content: center;
