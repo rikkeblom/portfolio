@@ -8,6 +8,10 @@
   font-family: var(--body-font);
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
 :root {
   --dark-color: #5c6651;
   --dark-color-transparent: #5c6651af;
@@ -64,7 +68,6 @@ header {
 
   font-weight: 200;
   line-height: 1.57rem;
-  text-decoration: none;
   list-style-type: none;
 }
 
@@ -78,7 +81,6 @@ header h1 span {
 }
 
 header a {
-  text-decoration: none;
   color: white;
 }
 
@@ -152,7 +154,6 @@ header a:hover {
   border: var(--dark-color) 2px solid;
   padding: 0.8rem 1.5rem;
   margin: 0rem auto;
-  text-decoration: none;
   user-select: none;
   transition: background-color 0.5s ease;
   transition: color 0.5s ease;
@@ -170,7 +171,7 @@ header a:hover {
 /* ------------------------Sections------------------------- */
 
 #hero {
-  background-color: grey;
+  background-color: var(--dark-color);
   height: 50vh;
 }
 #about-me {
@@ -259,7 +260,6 @@ header a:hover {
 
 .details .readmore {
   margin-left: 1rem;
-  text-decoration: none;
   color: white;
   user-select: none;
   cursor: pointer;
@@ -345,8 +345,36 @@ header a:hover {
 /* -------------contact */
 
 #contact {
-  background-color: whitesmoke;
-  height: 50vh;
+  background-color: white;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem var(--side-margin) 4rem var(--side-margin);
+}
+
+.contact-illustration {
+  width: 30%;
+  height: 10rem;
+  background-color: var(--light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact h2 {
+  margin-bottom: 1rem;
+}
+
+#fatlink1 {
+  font-weight: 900;
+  color: var(--dark-color);
+}
+
+#fatlink2 {
+  font-weight: 900;
+  color: var(--dark-color);
 }
 
 /* -----------------------Footer------------------------- */
@@ -374,7 +402,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
   transition: 1s ease;
 }
 
