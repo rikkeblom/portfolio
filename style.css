@@ -146,10 +146,10 @@ header a:hover {
 /* --------------------------Buttons--------------------------- */
 .button {
   background-color: white;
-  color: grey;
+  color: var(--dark-color);
   display: block;
   width: fit-content;
-  border: grey 2px solid;
+  border: var(--dark-color) 2px solid;
   padding: 0.8rem 1.5rem;
   margin: 0rem auto;
   text-decoration: none;
@@ -160,7 +160,7 @@ header a:hover {
 }
 
 .button:hover {
-  background-color: grey;
+  background-color: var(--dark-color);
   color: white;
   box-shadow: inset 0 0 0 2px white, var(--box-shadow);
   transition: background-color 0.5s ease;
@@ -357,6 +357,34 @@ footer {
   padding: 2rem 0;
   color: white;
   text-align: center;
+}
+
+#footerSoMe {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.someicon {
+  background-color: var(--bright-color);
+  width: 3rem;
+  height: 3rem;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 1s ease;
+}
+
+.someicon:hover i {
+  transform: scale(1.3);
+}
+
+.someicon i {
+  color: var(--dark-color);
+  font-size: 1.2rem;
 }
 
 .hidden {
