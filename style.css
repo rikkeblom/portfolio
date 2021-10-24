@@ -382,7 +382,7 @@ header a:hover {
 footer {
   background-color: var(--dark-color);
   width: 100vw;
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
   color: white;
   text-align: center;
 }
@@ -417,4 +417,15 @@ footer {
 .hidden {
   display: none;
   pointer-events: none;
+}
+
+footer::before {
+  content: "";
+  display: block;
+  background-color: white;
+  background-image: url("img/skylinetest-01.svg");
+  background-position: bottom center;
+  height: 8rem;
+  width: 100%;
+  margin-bottom: 2rem;
 }
