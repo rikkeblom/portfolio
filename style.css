@@ -170,12 +170,27 @@ header a:hover {
 
 /* ------------------------Sections------------------------- */
 
+#about-me::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  background-color: var(--dark-color);
+  background-image: url("img/clouds-top-01.svg"), url(img/clouds-bottom-01.svg);
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: contain;
+  height: 5rem;
+  width: 100vw;
+  margin-bottom: 2rem;
+}
+
 #hero {
   background-color: var(--dark-color);
   height: 50vh;
 }
 #about-me {
-  background-color: whitesmoke;
+  background-color: white;
   height: 50vh;
 }
 #skill-overview {
