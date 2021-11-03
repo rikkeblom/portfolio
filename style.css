@@ -194,10 +194,48 @@ header a:hover {
   gap: 2rem;
 }
 
+.about-me-illustration-container {
+  width: max(300px, 30%);
+  height: 312px;
+  position: relative;
+}
+
 .about-me-illustration {
-  background-color: var(--light-color);
+  background-color: transparent;
   width: max(300px, 30%);
   height: 300px;
+  border: 1rem solid var(--dark-color);
+  box-shadow: var(--box-shadow);
+  position: relative;
+  overflow-y: hidden;
+}
+
+/* .about-me-illustration::before {
+  background-color: white;
+  box-shadow: var(--box-shadow-inset);
+  content: "";
+  height: calc(300px - 2rem);
+  display: block;
+  z-index: 2;
+  margin: 1rem;
+} */
+
+#face {
+  width: max(300px, 30%);
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  transform: translate(-1rem, -2rem);
+}
+
+#hands {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 300px;
 }
 
 .about-me-text {

@@ -1,0 +1,148 @@
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 475 475.37">
+  <defs>
+    <radialGradient id="Ikke-navngivet_forløb_43" data-name="Ikke-navngivet forløb 43" cx="253.33" cy="433.6" r="49.45" gradientUnits="userSpaceOnUse">
+      <stop offset="0.69" stop-color="#b27b75"/>
+      <stop offset="0.74" stop-color="#c18880"/>
+      <stop offset="0.8" stop-color="#cf958a"/>
+      <stop offset="0.87" stop-color="#d79c90"/>
+      <stop offset="1" stop-color="#da9e92"/>
+    </radialGradient>
+    <linearGradient id="Ikke-navngivet_forløb_123" data-name="Ikke-navngivet forløb 123" x1="156.05" y1="457.18" x2="160.94" y2="427.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#926542"/>
+      <stop offset="1" stop-color="#735236"/>
+    </linearGradient>
+    <linearGradient id="Ikke-navngivet_forløb_123-2" x1="201.08" y1="472.29" x2="202" y2="466.75" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-3" x1="193.34" y1="470.35" x2="194.78" y2="461.63" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-4" x1="173.32" y1="471.69" x2="174.72" y2="443.93" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-5" x1="181.64" y1="471.42" x2="185.97" y2="455.27" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-6" x1="269.22" y1="472.34" x2="275.09" y2="436.79" gradientTransform="translate(-42.4 55.3) rotate(-13.29)" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-7" x1="277.76" y1="447.56" x2="281.34" y2="425.83" gradientTransform="translate(-42.4 55.3) rotate(-13.29)" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-8" x1="270.11" y1="464.97" x2="272.14" y2="452.64" gradientTransform="translate(-42.4 55.3) rotate(-13.29)" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-9" x1="314.89" y1="460.91" x2="318.47" y2="439.17" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-10" x1="300.3" y1="466.67" x2="302.59" y2="452.81" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-11" x1="243.16" y1="472.2" x2="245.47" y2="458.17" gradientTransform="translate(-42.4 55.3) rotate(-13.29)" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-12" x1="290.48" y1="469.35" x2="292" y2="460.14" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-13" x1="281.5" y1="469.97" x2="283" y2="460.86" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-14" x1="273.62" y1="472.2" x2="274.56" y2="466.54" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-15" x1="166.96" y1="472.29" x2="168.13" y2="449.1" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-16" x1="254.04" y1="363.81" x2="258.42" y2="277.33" gradientTransform="translate(-42.4 55.3) rotate(-13.29)" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-17" x1="164.64" y1="332.43" x2="167.91" y2="267.9" gradientTransform="translate(-42.4 55.3) rotate(-13.29)" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-18" x1="159.35" y1="327.7" x2="162.69" y2="261.71" gradientTransform="translate(-42.4 55.3) rotate(-13.29)" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-19" x1="153.01" y1="317.27" x2="155.74" y2="263.35" gradientTransform="translate(-42.4 55.3) rotate(-13.29)" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-20" x1="263.25" y1="332.77" x2="266.09" y2="276.58" gradientTransform="translate(-42.4 55.3) rotate(-13.29)" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_123-21" x1="143.05" y1="475.23" x2="155.47" y2="399.97" xlink:href="#Ikke-navngivet_forløb_123"/>
+    <linearGradient id="Ikke-navngivet_forløb_18" data-name="Ikke-navngivet forløb 18" x1="202.23" y1="343.6" x2="189.98" y2="408.71" gradientTransform="translate(-42.4 55.3) rotate(-13.29)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#da9e92"/>
+      <stop offset="1" stop-color="#d88d7b"/>
+    </linearGradient>
+    <linearGradient id="Ikke-navngivet_forløb_128" data-name="Ikke-navngivet forløb 128" x1="190.92" y1="349.02" x2="241.51" y2="349.02" gradientTransform="translate(-64.29 115.01) rotate(-24.3)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#735236"/>
+      <stop offset="1" stop-color="#926542"/>
+    </linearGradient>
+    <linearGradient id="Ikke-navngivet_forløb_128-2" x1="214.82" y1="338.13" x2="140.9" y2="337.7" gradientTransform="translate(-29.36 35.09) rotate(-8.53)" xlink:href="#Ikke-navngivet_forløb_128"/>
+  </defs>
+  <g id="overkrop">
+    <g id="hoved">
+      <path d="M342.54,473.38l0,0a13.88,13.88,0,0,1-2.19,2H151.94c-.28-3.59-.37-6.3.1-7.1a14,14,0,0,1-8.6,5,9.32,9.32,0,0,1-1.06.15c-1.29.15-2.54.19-3.73.27,7.22-5.5,11.29-20.06,12.45-30.89C147,459.18,144,462.19,138.65,463c11.71-17.59,6.39-54.58,5.77-59.5q-.51-4-.89-7.93A267.28,267.28,0,0,1,142,366.23v0c.47-118.5,91-104.8,91-104.8,5.89,7.44,9.43,2.49,14.75,0,60.48-7.47,77.82,55.58,80.9,101.37,0,0,0,0,0,0a221.24,221.24,0,0,1,.11,29.21c-.11,1.65-.23,3.2-.38,4.63a104.76,104.76,0,0,0-.42,11.75c0,1.46-.26,16.48,15.57,30.67a.16.16,0,0,1,.06,0c-5.37,1.17-8.65-2.36-13-4.73C333.7,452.83,339,468.92,342.54,473.38Z" fill="#735236"/>
+      <ellipse cx="235.32" cy="370.87" rx="103.06" ry="83.7" transform="translate(-136.66 604.45) rotate(-89.73)" fill="#da9e92"/>
+      <ellipse cx="152.36" cy="380.02" rx="19.36" ry="14.8" transform="translate(-228.37 530.6) rotate(-89.73)" fill="#da9e92"/>
+      <ellipse cx="318.99" cy="377.53" rx="19.36" ry="14.8" transform="translate(-60.03 694.74) rotate(-89.73)" fill="#da9e92"/>
+      <path d="M269.59,475.37H208.1l-.79-6.95c0-.05,0-.1,0-.14l0-.22-4.4-37.8,14.75-1.72,16.27-1.88,10-1.17L258,423.86h0l5.56-.65.33,2.91.17,1.41.19,1.62.1.79V430l.05.43,0,.09.05.42V431l.06.59.68,5.77,0,.23.44,3.86,2.79,24h0C268.93,469.65,269.32,473,269.59,475.37Z" fill="#da9e92"/>
+      <path d="M269.59,475.37H208.18c-.44-4-.76-6.16-.87-6.95,0-.05,0-.1,0-.14l0-.22.25.11c2.71,1.06,27.12,9.84,60.83-2.66h0l.08,0C268.93,469.65,269.32,473,269.59,475.37Z" fill="url(#Ikke-navngivet_forløb_43)"/>
+      <path d="M152.34,357.42s47.42-33.75,86.92-89.49C216.35,265.05,154.46,279.23,152.34,357.42Z" fill="#735236"/>
+      <path d="M235.8,267.81s-5,20.92,31.92,39,40.07,22.72,50.56,50.22C321.14,342.74,314,261.12,235.8,267.81Z" fill="#735236"/>
+      <g>
+        <path d="M161.93,475.37H157.3c1.78-8.7,2.37-20.67-.12-36.81v-.24c-.91-5.69-2.21-12-4-18.77a32.61,32.61,0,0,0,3.28,6.13s0,0,0,.05c1.32,1.72,2.66,2.24,3.22-1.43C160.76,432.9,166.57,456.7,161.93,475.37Z" fill="url(#Ikke-navngivet_forløb_123)"/>
+        <path d="M204,466.55s-.82,3.8-1.34,8.82h-3.25a79.74,79.74,0,0,1,.82-10.17Z" fill="url(#Ikke-navngivet_forløb_123-2)"/>
+        <path d="M195.88,475.37h-4.14a63.79,63.79,0,0,0,.08-16.19s.08,1,4.34,3.63A57.14,57.14,0,0,1,195.88,475.37Z" fill="url(#Ikke-navngivet_forløb_123-3)"/>
+        <path d="M177.92,475.37h-7.38c1.57-8.45,1.82-19.32-1.24-32.54,2.47,2.8,8.75,8.5,8.46,5.22C179,456.11,180,466.13,177.92,475.37Z" fill="url(#Ikke-navngivet_forløb_123-4)"/>
+        <path d="M188.34,475.37h-7.12a72.21,72.21,0,0,0-1.6-25.32c2.62,3,6.78,11.9,8.35,7.33A61.86,61.86,0,0,1,188.34,475.37Z" fill="url(#Ikke-navngivet_forløb_123-5)"/>
+        <path d="M342.56,473.4s-20.44-10.85-25.83-63.56c-2.12,4.14-3.42,2.61-3.42,2.61S309.33,467.34,342.56,473.4Z" fill="url(#Ikke-navngivet_forløb_123-6)"/>
+        <path d="M343.59,439.15S322,423.82,321.91,400.94c-3.3,1.94-4.77.08-4.77.08S318.44,433.39,343.59,439.15Z" fill="url(#Ikke-navngivet_forløb_123-7)"/>
+        <path d="M325,430.6s1.93,13,6.54,20.24-8.3-8-9.68-19.5A2.39,2.39,0,0,0,325,430.6Z" fill="url(#Ikke-navngivet_forløb_123-8)"/>
+        <path d="M330.07,475.37h-7.38c-18.39-7.2-21.29-39.2-21.29-39.2a29.27,29.27,0,0,0,4.53-4C310.29,462.14,323.82,472.24,330.07,475.37Z" fill="url(#Ikke-navngivet_forløb_123-9)"/>
+        <path d="M312.39,475.37h-10.3c-9.09-10.52-12.61-25.06-12.61-25.06s3.82-.37,5.51-1.87C297.46,460.93,304.94,469.6,312.39,475.37Z" fill="url(#Ikke-navngivet_forløb_123-10)"/>
+        <path d="M297.26,446.12s4.57,18.27,10.82,20.85c-5-9.86-8.89-25.17-8.89-25.17Z" fill="url(#Ikke-navngivet_forløb_123-11)"/>
+        <path d="M297,475.37h-3.87c-4.76-6.18-8.31-12.76-8.48-16.5l3.63-1.41A176.26,176.26,0,0,0,297,475.37Z" fill="url(#Ikke-navngivet_forløb_123-12)"/>
+        <path d="M287.41,475.37H280.8c-2.86-6.23-5.1-11.5-5.1-11.5l7-5.1S285.07,466.79,287.41,475.37Z" fill="url(#Ikke-navngivet_forløb_123-13)"/>
+        <path d="M275.29,475.37H272c-.33-2.41-.47-4-.47-4l2.51-6.14S274.6,469.75,275.29,475.37Z" fill="url(#Ikke-navngivet_forløb_123-14)"/>
+        <path d="M166.84,475.37h-1.9c1.34-7.29,1.87-14.32,1.87-14.32l.38-7.36s-.92-3.45,1.67-5.24C170.34,456.87,169.26,467,166.84,475.37Z" fill="url(#Ikke-navngivet_forløb_123-15)"/>
+        <path d="M239.5,271.35s15.34,32,53.21,42.78c4.28,1.93,25.49,15.66,30.09,42.6-.33-11.36-1.35-41.15-40.68-57.17-15.35-5.5-33-32-33-32S259,290.88,239.5,271.35Z" fill="url(#Ikke-navngivet_forløb_123-16)"/>
+        <path d="M231.2,270.3s-46.52,60.08-83.59,88.23c3.3-5.67,71.86-80.44,76.45-90.66C222.75,274.72,231.2,270.3,231.2,270.3Z" opacity="0.69" fill="url(#Ikke-navngivet_forløb_123-17)"/>
+        <path d="M221,266.31s-68.93,85.82-75.84,88.35c4.39-8.54,46.37-83.6,71-91.4C211.91,267.13,221,266.31,221,266.31Z" opacity="0.69" fill="url(#Ikke-navngivet_forløb_123-18)"/>
+        <path d="M204.39,267.8S157.81,294,145.85,342.57C153.8,310.89,157.57,281.51,204.39,267.8Z" opacity="0.69" fill="url(#Ikke-navngivet_forløb_123-19)"/>
+        <path d="M253.68,266.46s51,27.86,64.23,54.94C314.87,309.48,298.37,261.34,253.68,266.46Z" opacity="0.76" fill="url(#Ikke-navngivet_forløb_123-20)"/>
+      </g>
+      <path d="M140.93,474.88s14.25-11,10.86-48c0,.6,0,1.26,0,1.93.15,17.51-7.58,29.44-10.37,31.16,6.33-4.22,8.61-43.85,8.7-45.31v0c-.86-5-2-10.36-3.52-16.14,0,0,5.29,13.08,6.55,4.82C154.72,415.85,166.37,460.73,140.93,474.88Z" fill="url(#Ikke-navngivet_forløb_123-21)"/>
+      <path d="M151.67,375.72l.15,11.15s-5.89-.73-5.52-6.09A5.07,5.07,0,0,1,151.67,375.72Z" fill="#c68f88"/>
+      <path d="M318.17,373.14l-1.51,11s5.93,0,6.22-5.37A5.06,5.06,0,0,0,318.17,373.14Z" fill="#c68f88"/>
+      <g id="øjne">
+        <g>
+          <path d="M247,430.85a11.5,11.5,0,0,1-8.25,2.87c-3.11-.09-5.16-.72-9.64-2.65s-13.17,2.33-15,3.77-7.3,1.68-7.3,1.68,11.58,12.62,33.24,12.12c20.7-1.25,33.31-19.74,30.73-18.16S257.52,429,257.52,429,250.84,427.48,247,430.85Z" fill="#51302e"/>
+          <g>
+            <rect x="238.63" y="428.08" width="7.32" height="7.78" rx="0.99" transform="translate(-37.09 23.01) rotate(-5.05)" fill="#fae6d8"/>
+            <rect x="231.51" y="428.71" width="7.2" height="7.78" rx="0.99" transform="translate(-37.17 22.38) rotate(-5.05)" fill="#fae6d8"/>
+            <rect x="262.47" y="427.43" width="5.37" height="3.53" rx="0.99" transform="translate(-36.75 25.01) rotate(-5.05)" fill="#fae6d8"/>
+            <rect x="245.85" y="426.55" width="6.18" height="7.78" rx="0.99" transform="translate(-36.92 23.58) rotate(-5.05)" fill="#fae6d8"/>
+            <rect x="251.98" y="426.03" width="5.63" height="7.13" rx="1.05" transform="translate(-36.83 24.1) rotate(-5.05)" fill="#fae6d8"/>
+            <rect x="257.59" y="426.35" width="4.86" height="5.65" rx="0.99" transform="translate(-36.77 24.56) rotate(-5.05)" fill="#fae6d8"/>
+            <rect x="225.27" y="428.37" width="6.18" height="7.78" rx="0.99" transform="translate(-37.16 21.78) rotate(-5.05)" fill="#fae6d8"/>
+            <rect x="219.64" y="428.89" width="5.63" height="7.13" rx="1.05" transform="translate(-37.2 21.26) rotate(-5.05)" fill="#fae6d8"/>
+            <rect x="214.81" y="430.09" width="4.86" height="5.65" rx="0.99" transform="translate(-37.27 20.8) rotate(-5.05)" fill="#fae6d8"/>
+            <rect x="209.67" y="432.79" width="5.37" height="3.11" rx="0.92" transform="translate(-37.41 20.38) rotate(-5.05)" fill="#fae6d8"/>
+          </g>
+          <path d="M217.37,445.49s12.79-4.24,22.65-.74c6-5.73,22.2-2,22.2-2a33,33,0,0,1-21,7.26C228.05,453,217.37,445.49,217.37,445.49Z" fill="#8c2a20"/>
+          <path d="M264.47,426.38c-2.54-1.09-6.22-3.21-12.87-3.46-3.4-.13-9.59,4.1-13,4.24-5.06.21-10.12-2.73-13.34-1.84-9.67,2.68-11.8,7.46-15.94,8.12l-5.85,1c6.58,8.58,14.28,21.27,38.76,18.93,23.27-1.71,31.77-25.23,31.77-25.23A50.45,50.45,0,0,1,264.47,426.38Zm-24.4,21.82c-21.66.53-33.21-11.78-33.21-11.78s5.48-.23,7.3-1.65,10.51-5.58,15-3.71,6.52,2.48,9.63,2.56A11.73,11.73,0,0,0,247,430.8c3.8-3.29,10.48-1.87,10.48-1.87s10.73,3,13.31,1.46S260.77,446.93,240.07,448.2Z" fill="#c68173"/>
+        </g>
+        <g>
+          <path d="M180.11,382.91s-3-17,15.66-21.54,17.46,17.09,17.46,17.09S206.67,386.39,180.11,382.91Z" fill="#fff"/>
+          <ellipse cx="198.49" cy="371" rx="12.61" ry="9.07" transform="translate(-194.18 522.13) rotate(-82.9)" fill="#586725"/>
+          <ellipse cx="198.45" cy="371.87" rx="3.2" ry="7.43" transform="translate(-8.33 4.57) rotate(-1.29)"/>
+          <ellipse cx="199.99" cy="366.28" rx="2.18" ry="2.29" transform="translate(-78.87 55.81) rotate(-13.29)" fill="#fff"/>
+          <ellipse cx="201.83" cy="370.21" rx="0.88" ry="1.16" transform="translate(-79.73 56.33) rotate(-13.29)" fill="#fff"/>
+          <path d="M178.48,383.23s.33,6.42,16,4,16.44-3.49,18.75-8.82C208.5,380.12,188.17,383.38,178.48,383.23Z" fill="#d88d7b"/>
+          <path d="M172.28,380.24s4.14,4.16,7.83,2.67c-.12-4.26,1-17.9,16.62-21.75,5-1.19,13.84.31,16.5,17.3,0,0,4.51-21.92-15.85-21-14.4.32-21.6,15.79-20.81,21C177.2,381.15,172.28,380.24,172.28,380.24Z"/>
+        </g>
+        <g>
+          <path d="M291.45,376.26s3.07-16.56-16.52-18.92-18.17,18.22-18.17,18.22S263.67,382.45,291.45,376.26Z" fill="#fff"/>
+          <ellipse cx="274.83" cy="367.15" rx="12.21" ry="9.1" transform="translate(-135.68 571.62) rotate(-79.66)" fill="#586725"/>
+          <ellipse cx="274.78" cy="367.99" rx="3.22" ry="7.16" transform="translate(-2.65 1.99) rotate(-0.41)"/>
+          <ellipse cx="278.2" cy="366.35" rx="0.89" ry="1.11" transform="translate(-76.79 73.79) rotate(-13.29)" fill="#fff"/>
+          <circle cx="276.22" cy="361.85" r="2.2" transform="translate(-75.81 73.22) rotate(-13.29)" fill="#fff"/>
+          <path d="M291.89,375.17s.6,6.41-15.25,6.32-16.77-1.08-19.83-6C261.73,376.43,282.32,376.72,291.89,375.17Z" fill="#d88d7b"/>
+          <path d="M298.22,373.4s-4.35,4.46-8,3.43c.3-4.13-.23-17.18-15.89-19.18-5-.6-14,1.82-17.37,18.53,0,0-3.66-20.68,16.86-22,14.54-1.27,21.18,12.88,20.16,18C293.21,374.81,298.22,373.4,298.22,373.4Z"/>
+        </g>
+      </g>
+      <g id="fregner">
+        <circle cx="208.02" cy="388.65" r="0.91" fill="#c47c66"/>
+        <circle cx="197.36" cy="390.96" r="0.71" fill="#c47c66"/>
+        <circle cx="203.73" cy="396.68" r="0.57" fill="#c47c66"/>
+        <circle cx="163.42" cy="392.54" r="1.72" fill="#c47c66"/>
+        <circle cx="177.29" cy="394.83" r="0.85" fill="#c47c66"/>
+        <ellipse cx="221.28" cy="377.59" rx="0.41" ry="1" transform="matrix(0.97, -0.23, 0.23, 0.97, -80.9, 61.01)" fill="#c47c66"/>
+        <circle cx="186.01" cy="402.21" r="1.3" fill="#c47c66"/>
+        <circle cx="251.89" cy="383.69" r="1" fill="#c47c66"/>
+        <ellipse cx="270.3" cy="391.23" rx="0.72" ry="1.32" transform="translate(-82.72 72.64) rotate(-13.29)" fill="#c47c66"/>
+        <circle cx="255.09" cy="390.07" r="0.64" fill="#c47c66"/>
+        <circle cx="275.98" cy="385.48" r="0.98" fill="#c47c66"/>
+        <circle cx="288.7" cy="386.5" r="0.95" fill="#c47c66"/>
+        <circle cx="279.32" cy="399.58" r="0.98" fill="#c47c66"/>
+        <circle cx="300.82" cy="390.82" r="0.86" fill="#c47c66"/>
+        <circle cx="304.94" cy="374.95" r="0.48" fill="#c47c66"/>
+      </g>
+      <path d="M169.92,395.89s13.09,2.17,37.75-2.26c10.75-1.65,12.44,12.31-5.35,21.91-23.07,12-36.53-13.11-36.53-13.11S161.7,391.9,169.92,395.89Z" fill="#d88d7b" opacity="0.51"/>
+      <path d="M299.72,385.56s-12.48,3.89-37.5,3.27c-10.86,0-10,13.26,9.16,19.7,24.8,7.9,33.56-17.45,33.56-17.45S307.08,380.66,299.72,385.56Z" fill="#d88d7b" opacity="0.51"/>
+      <g id="næse">
+        <path d="M239.27,412a6.54,6.54,0,0,0,8.75-1C245.87,408.46,242.91,406.39,239.27,412Z" fill="#936c65"/>
+        <path d="M225.51,412.79a6.52,6.52,0,0,0,8.8.21C232.54,410.18,229.9,407.71,225.51,412.79Z" fill="#936c65"/>
+        <path d="M247.26,412.66c-1.63-4.49-5.62-4.62-6.44-.69s-6.1,3.45-7.26,1.71-2.27-3.19-3.92-3.15-2.13.67-2.7,3.52-3.46.8-3.46.8-1.14.79-3.65-5.05,8.86-13.51,8.86-13.51,2.87-21.38-2.51-39.86c5.78,1.4,10.9,1.77,14.67-1.82-2.45,8.77,1.81,39.58,3.88,41.11l0,0a21.5,21.5,0,0,1,7.54,8.75C255.5,410.85,251,413.27,247.26,412.66Z" fill="url(#Ikke-navngivet_forløb_18)"/>
+        <path d="M226.9,398.52s9.43-7.53,18.17-1.65c2.48,1.85,5.55,4.54,4.38,6.14s-6.2-1.95-6.2-1.95-2.69,2.18-11,1.71a25.75,25.75,0,0,1-8.12,2.69C219.14,405.54,226.9,398.52,226.9,398.52Z" fill="#f2dcd8" opacity="0.28"/>
+      </g>
+      <g id="øjenbryn">
+        <path d="M252.38,344.57s-5,9.8,4.36,4.4,14.3-9,23.15-10.32,21.64,7.2,21.64,7.2,4.79,3.14,2.81-1.27c-3.83-3.07-7.88-11-26.1-11.68C257.6,334.2,255.34,338.05,252.38,344.57Z" fill="url(#Ikke-navngivet_forløb_128)"/>
+        <path d="M217,340.32s7.3,8.22-3.1,5.35-16.12-5.13-25-4.15S169.8,354,169.8,354s-3.85,4.25-3-.52c2.92-3.93,4.84-12.63,22.3-17.88C209.37,331.6,212.53,334.75,217,340.32Z" fill="url(#Ikke-navngivet_forløb_128-2)"/>
+      </g>
+      <path d="M309.06,350.56A143.57,143.57,0,0,0,245,355.92a34.22,34.22,0,0,1-8.85,2.1l-4.65.09a26.22,26.22,0,0,1-9-2.23s-31-8.93-65.61-2.11c-6.43,4.1-5.28,6.93-5.28,6.93s4.73.65,5.58,4.11,7,30,26.82,30.43,30.24.12,41.62-28.69c0,0,3.85-2.25,6.78-2.2l5.21-.06c2.93-.19,4.86,2.42,4.86,2.42,12.84,30.93,23.34,28.16,43.18,26.82s24.43-28.09,25.08-31.6,8.37-3.76,8.37-3.76l-2.6-5.83S315.68,350,309.06,350.56Zm-87.52,13.72c-1.06,7.07-7.65,23.83-20.28,27-33.21,6.81-38-16.34-40.85-29.85a3,3,0,0,1,2.44-3.41c8.31-1.12,32.4-3.4,56.86,3.4A3.66,3.66,0,0,1,221.54,364.28Zm86.25-5.68c-1.89,13.63-5.21,37-38.78,32-12.84-2.5-20.52-18.87-22-25.86a3.66,3.66,0,0,1,1.65-2.94c23.95-8.11,48.14-7.15,56.54-6.48A3,3,0,0,1,307.79,358.6Z" fill="#5b6651"/>
+    </g>
+  </g>
+</svg>
