@@ -169,10 +169,28 @@ header a:hover {
 }
 
 /* ------------------------Sections------------------------- */
-
 #hero {
   background-color: var(--dark-color);
-  height: 50vh;
+  padding: 5rem;
+}
+
+#hero .fillercontent {
+  height: 40vh;
+  width: 100%;
+}
+
+#hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  background-image: url("img/clouds-bottom-01.svg");
+  filter: drop-shadow(rgba(0, 0, 0, 0.24) -4px -3px 2px);
+  width: 100vw;
+  height: 5rem;
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  background-size: contain;
 }
 
 /* ------------------------About Me */
@@ -208,6 +226,31 @@ header a:hover {
   box-shadow: var(--box-shadow);
   position: relative;
   overflow-y: hidden;
+}
+
+#about-me::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 5rem;
+  background-image: url("img/clouds-top-01.svg");
+  filter: drop-shadow(rgba(0, 0, 0, 0.24) -4px -3px 2px);
+  transform: translateY(-8rem);
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  background-size: contain;
+  /* animation: ani-clouds 4s infinite alternate-reverse; */
+}
+
+@keyframes ani-clouds {
+  from {
+    transform: translate(0, -5rem);
+  }
+  to {
+    transform: translate(100%, -5rem);
+  }
 }
 
 /* .about-me-illustration::before {
@@ -465,7 +508,7 @@ header a:hover {
 footer {
   background-color: var(--dark-color);
   width: 100vw;
-  padding: 2rem 0;
+  padding: 3rem 0 2rem 0;
   color: white;
   text-align: center;
 }
@@ -501,3 +544,14 @@ footer {
   display: none;
   pointer-events: none;
 }
+
+/* footer::before {
+  content: "";
+  display: block;
+  background-color: white;
+  background-image: url("img/skylinetest-01.svg");
+  background-position: bottom center;
+  height: 8rem;
+  width: 100%;
+  margin-bottom: 2rem;
+} */
