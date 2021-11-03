@@ -392,17 +392,20 @@ header a:hover {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
   padding: 2rem var(--side-margin) 4rem var(--side-margin);
 }
 
 .contact-illustration {
-  width: 30%;
-  height: 10rem;
-  background-color: var(--light-color);
+  width: max(30%, 200px);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contact-illustration img {
+  width: 100%;
 }
 
 #contact h2 {
