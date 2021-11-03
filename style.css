@@ -464,7 +464,7 @@ footer {
   pointer-events: none;
 }
 
-footer::before {
+/* footer::before {
   content: "";
   display: block;
   background-color: white;
@@ -473,4 +473,4 @@ footer::before {
   height: 8rem;
   width: 100%;
   margin-bottom: 2rem;
-}
+} */
