@@ -175,7 +175,7 @@ header a:hover {
 }
 
 #hero .fillercontent {
-  height: 40vh;
+  height: 10vh;
   width: 100%;
 }
 
@@ -296,7 +296,7 @@ header a:hover {
 
 #skill-overview {
   background-color: white;
-  height: 50vh;
+  height: 0;
 }
 #resume {
   background-color: var(--bright-color);

@@ -74,8 +74,18 @@ function fillModal(projectID) {
   document.querySelector("#modal-date").textContent = projectList[projectID].date;
   document.querySelector("#modal-image").src = projectList[projectID].img;
   document.querySelector("#modal-description").textContent = projectList[projectID].description;
-  document.querySelector("#modal-buttons a:nth-of-type(1)").href = projectList[projectID].site;
-  document.querySelector("#modal-buttons a:nth-of-type(2)").href = projectList[projectID].repository;
+  if (projectList[projectID].site !== "") {
+    document.querySelector("#modal-buttons a:nth-of-type(1)").href = projectList[projectID].site;
+    document.querySelector("#modal-buttons a:nth-of-type(1)").classList.remove("hidden");
+  } else {
+    document.querySelector("#modal-buttons a:nth-of-type(1)").classList.add("hidden");
+  }
+  if (projectList[projectID].repository !== "") {
+    document.querySelector("#modal-buttons a:nth-of-type(2)").href = projectList[projectID].repository;
+    document.querySelector("#modal-buttons a:nth-of-type(2)").classList.remove("hidden");
+  } else {
+    document.querySelector("#modal-buttons a:nth-of-type(2)").classList.add("hidden");
+  }
 }
 
 function closeModal() {
