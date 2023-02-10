@@ -6,6 +6,10 @@
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: var(--body-font);
+  /* scroll-behavior: smooth; */
+}
+html {
+  scroll-behavior: smooth;
 }
 
 a:-webkit-any-link {
@@ -33,6 +37,14 @@ section {
   padding: 0 var(--side-margin) 0 var(--side-margin);
 }
 
+strong {
+  font-weight: 800;
+}
+
+h2{
+  font-weight: 300;
+}
+
 /* ---------------------HEADER--------------------- */
 
 header {
@@ -45,7 +57,7 @@ header {
 }
 
 .mainHeaderLine {
-  height: 4rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,9 +87,6 @@ header {
 header h1 {
   grid-column-start: 1;
   color: white;
-}
-
-header h1 span {
   font-weight: 100;
 }
 
@@ -223,14 +232,118 @@ header .linkedin a{
 }
 
 /* ------------------------Sections------------------------- */
-#hero {
-  background-color: var(--bright-color);
-  padding: 5rem;
+section:not(:last-of-type) {
+  margin-bottom: 96px;
 }
+
+section {
+  scroll-margin-top: 10rem;
+  scroll-snap-type: x proximity;
+  padding: 4rem 1.5rem;
+}
+
+section#hero {
+  background: linear-gradient(231.19deg, #018FD1 46.08%, rgba(1, 143, 209, 0) 159.25%);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+
+}
+
+section#hero .divider{
+  height: 1px;
+  min-width: 80%;
+  max-width: 400px;
+  background-color: white;
+  margin: 1rem 0;
+}
+
+section#hero .text {
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 100;
+}
+
+section#hero .text h1 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+section#hero .text p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+section#hero .text p:last-of-type {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+section#hero .text p:first-of-type {
+  display: flex;
+  flex-direction: column;
+}
+
+section#hero .img-me {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 18rem;
+}
+
+@media only screen and (min-width: 600px) {
+  section#hero .text p:first-of-type {
+    display: block
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  section#hero .text {
+    padding-bottom: 0rem;
+  }
+  
+  section#hero .img-me {
+    height: 22rem;
+  }
+}
+
+section#techstack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--bright-color);
+  color: white;
+}
+
+section#techstack .tech-flex {
+  max-width: 300px;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, 3rem);
+  gap: 2rem;
+}
+
+section#techstack .tech-flex img{
+  height: 100%;
+  width: 100%;
+}
+
+section#projects{
+  height: 20rem;
+  width: 100%;
+  background-color: var(--dark-color);
+}
+
 
 /* -------------contact */
 
-#contact {
+section#contact {
   background-color: white;
   height: fit-content;
   display: flex;
@@ -243,36 +356,37 @@ header .linkedin a{
   padding: 2rem var(--side-margin) 4rem var(--side-margin);
 }
 
-.contact-illustration {
+section#contact .contact-illustration {
   width: max(30%, 200px);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contact-illustration img {
+section#contact .contact-illustration img {
   width: 100%;
 }
 
-#contact h2 {
+section#contact h2 {
   margin-bottom: 1rem;
 }
 
-#fatlink1 {
-  font-weight: 900;
-  color: var(--dark-color);
-}
-
-#fatlink2 {
-  font-weight: 900;
-  color: var(--dark-color);
-}
-
-#contact .flex{
+section#contact .flex{
   gap: .5rem;
   justify-content: center;
   margin-top: 2rem;
 }
+
+#fatlink1 {
+  font-weight: 800;
+  color: var(--dark-color);
+}
+
+#fatlink2 {
+  font-weight: 800;
+  color: var(--dark-color);
+}
+
 
 /* -----------------------Footer------------------------- */
 
