@@ -16,10 +16,10 @@
             <a href="#hero">Rikke<span>Blom</span></a>
           </h1>
           <ul id="bigNavCat">
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#skill-overview">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#">Tech Stack</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/rikke-blom-thoegersen/" ><i class="fab fa-linkedin-in"></i></a></li>
           </ul>
           <i id="burgerIcon" class="fas fa-bars"></i>
         </nav>
@@ -32,84 +32,36 @@
       </ul>
     </header>
     <main>
-      <section id="hero">
-        <div class="fillercontent"></div>
-        <div class="bottom"></div>
-      </section>
-      <section id="about-me">
-        <div class="about-flex">
-          <div class="about-me-illustration-container">
-            <div class="about-me-illustration"><img id="face" src="img/head.svg" alt="illustration of my face" /></div>
-            <img id="hands" src="img/hands.svg" alt="illustration of hands" />
-          </div>
-          <div class="about-me-text">
-            <h2>Hi!</h2>
-            <h3>My name is Rikke. I'm an aspiring multimedia designer and frontend developer.</h3>
-            <p>
-              I've always been fascinated by the world of digital communication and especially the way frontend development merges <b>logic</b> and <b>creativity</b>. I started my journey at the University of Southern Denmark where I got my BA in
-              International Business Communication. During this time it became clear to me that it wouldn't be enough to just design and write for the web <b>- I wanted to create it.</b>
-            </p>
-            <p>Today I'm studying multimedia design with specialization in frontend development at Copenhagen school of Design and Technology (aug 2020- aug 2022). If you scroll down I'd love to show you some of my projects.</p>
-          </div>
-        </div>
-      </section>
-      <div id="experience">
-        <section id="skill-overview"></section>
-        <section id="resume">
-          <h2>Check out my Resume</h2>
-          <a class="button" target="_blank" href="files/resume_Rikke-Blom-Thøgersen_English.pdf">Grab a Copy</a>
-        </section>
-      </div>
+      <section id="hero"></section>
       <section id="projects">
-        <h2>Project Gallery</h2>
-        <div id="project-wrapper">
-          <template>
-            <div class="img-wrap">
-              <div class="img">
-                <div class="details">
-                  <div class="readmore"><span>Read</span> More</div>
-                  <h3 class="project-title">Exam Portfolio 2020</h3>
-                </div>
-              </div>
+        <!-- <h2>Project Gallery</h2> -->
+        <div id="projects-wrapper">
+            <div class="project-wrapper">
             </div>
-          </template>
         </div>
       </section>
       <section id="contact">
         <div class="contact-illustration"><img src="img/contact.svg" alt="tea and envelope" /></div>
         <div class="contact-text">
           <h2>I'm always happy to have a chat</h2>
-          <p>
-            <a id="fatlink1" target="_blank" href="http://mailto:rikke_blom@hotmail.com">Send me an email</a> at rikke_blom@hotmail.com <br />
+          <p>Please send me an email at 
+            <a id="fatlink1" target="_blank" href="http://mailto:rikke_blom@hotmail.com">rikke_blom@hotmail.com</a><br />
             or reach out to me on <a id="fatlink2" href="https://www.linkedin.com/in/rikke-blom-thoegersen/" target="_blank">LinkedIn</a>.
           </p>
-        </div>
-      </section>
-      <div id="modal-wrapper" class="hidden">
-        <div id="modal-flex" class="hidden">
-          <i class="fas fa-times"></i>
-          <h2 id="modal-title">Exam Portfolio</h2>
-          <p id="modal-date">dec 2020 - jan 2021</p>
-          <img id="modal-image" src="img/exam-portfolio.PNG" alt="project image" />
-          <p id="modal-description">
-            Inisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          </p>
-          <div id="modal-buttons">
-            <a href="" target="_blank" class="button">Visit Site</a>
-            <a href="" target="_blank" class="button">GitHub Repository</a>
+          <div class="flex">
+            <a target="_blank" href="http://mailto:rikke_blom@hotmail.com" class="btn"><p>Email</p></a>
+            <a target="_blank" href="https://www.linkedin.com/in/rikke-blom-thoegersen/" class="btn secondary"><p>LinkedIn</p></a>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer>
       <div id="footerSoMe">
-        <a target="_blank" href="https://www.facebook.com/rikke.b.thogersen" class="someicon"><i class="fab fa-facebook-f"></i></a>
         <a target="_blank" href="https://github.com/rikkeblom" class="someicon"><i class="fab fa-github"></i></a>
         <a target="_blank" href="https://www.linkedin.com/in/rikke-blom-thoegersen/" class="someicon"><i class="fab fa-linkedin-in"></i></a>
-        <a target="_blank" href="https://codepen.io/rikkeblom/" class="someicon"><i class="fab fa-codepen"></i></a>
         <a target="_blank" href="http://mailto:rikke_blom@hotmail.com" class="someicon"><i class="fas fa-paper-plane"></i></a>
       </div>
-      <p>© Rikke Blom Thøgersen 2021</p>
+      <p>© Rikke Blom Thøgersen 2023</p>
     </footer>
     <script src="script.js"></script>
   </body>
