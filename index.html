@@ -25,9 +25,8 @@
         </nav>
       </div>
       <ul class="hidden smallNavCat">
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#skill-overview">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#techstack">Tech Stack</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
@@ -42,9 +41,44 @@
         <img class="img-me" src="img/Rikke.png" alt="Hello it's me Rikke">
       </section>
       <section id="projects">
-        <!-- <h2>Project Gallery</h2> -->
+        <h2><strong>Project Gallery</strong></h2>
         <div id="projects-wrapper">
-            <div class="project-wrapper">
+            <div class="project-wrapper momondo">
+              <div class="project-img"></div>
+              <div class="project-text">
+                <h3>Momondo frontpage UI clone</h3>
+                <p>PHP project w. APIs</p>
+              </div>
+              <div class="project-buttons">
+                <div  onclick="openModal('momondo')" class="btn"><p>see more</p></div>
+                <a href="https://rikkeblom.com/momondo-clone/" target="_blank" class="btn secondary"><p>visit site</p></a>
+              </div>
+            </div>
+
+            <div class="project-wrapper  trump">
+              <div class="project-img">
+                <video autoplay loop muted src="img/trump.mp4" class="hidden"></video>
+              </div>
+              <div class="project-text">
+                <h3>Trump Tweets</h3>
+                <p>JavaScript point and click game</p>
+              </div>
+              <div class="project-buttons">
+                <div onclick="openModal('trump')" class="btn"><p>see more</p></div>
+                <a href="https://rikkeblom.com/trump-tweets/" target="_blank" class="btn secondary"><p>play the game</p></a>
+              </div>
+            </div>
+
+            <div class="project-wrapper sushi">
+              <div class="project-img"></div>
+              <div class="project-text">
+                <h3>Nishiki Sushi</h3>
+                <p>React site w. takeaway ordering system and table booking</p>
+              </div>
+              <div class="project-buttons">
+                <div onclick="openModal('sushi')" class="btn"><p>see more</p></div>
+                <a href="https://nishikisushi-copy.netlify.app/" target="_blank" class="btn secondary"><p>visit site</p></a>
+              </div>
             </div>
         </div>
       </section>
@@ -64,7 +98,7 @@
       <section id="contact">
         <div class="contact-illustration"><img src="img/contact.svg" alt="tea and envelope" loading="lazy" /></div>
         <div class="contact-text">
-          <h2>I'm always <strong>happy to have a chat</strong></h2>
+          <h3>I'm always <strong>happy to have a chat</strong></h3>
           <p>Please send me an email at 
             <a id="fatlink1" target="_blank" href="http://mailto:rikke_blom@hotmail.com">rikke_blom@hotmail.com</a><br />
             or reach out to me on <a id="fatlink2" href="https://www.linkedin.com/in/rikke-blom-thoegersen/" target="_blank">LinkedIn</a>.
@@ -75,7 +109,100 @@
           </div>
         </div>
       </section>
+      <section id="modal" class="hidden">
+        <!-- <div class="backgroundBlur"></div> -->
+        <div class="modal__content">
+          <svg onclick="closeModal()" class="modal__closeBtn" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="cross" d="M6 16.8304L10.1952 11.6944L6.5952 7H10.0128L11.9904 9.64L13.968 7H17.3856L13.7856 11.6944L17.9808 16.8304H14.448L11.9904 13.72L9.5328 16.8304H6Z" fill="#002D4E"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5 21.5L21.5 2.5L2.5 2.5L2.5 21.5L21.5 21.5ZM2 24L22 24C23.1046 24 24 23.1046 24 22L24 2C24 0.89543 23.1046 8.97416e-07 22 9.45698e-07L2 -8.74228e-08C0.89543 -3.91405e-08 -1.00993e-06 0.89543 -9.61651e-07 2L-8.74228e-08 22C-3.91405e-08 23.1046 0.895431 24 2 24Z" fill="#002D4E"/>
+            </svg>
+          <div class="trump hidden">
+            <img class="modal__image" src="img/trump-tweets.png" alt="trump tweets screenshot">
+            <div class="modal__text">
+              <div>
+                <h2>Trump Tweets</h2>
+                <p class="modal__text__tagline" >JavaScript point and click game</p>
+                <p class="modal__text__description">
+                  I created this game during my first semester of multimedia design at Copenhagen School of Art and Technology (KEA). </br>
+                  The game is build in vanilla JavaScript and features original svg illustrations. 
+                </p>
+                
+                <div class="modal__text__links">
+                  <a target="_blank" href="documents/4th_semester_final_project-group_DragonRiders.pdf"><p>See the design documentation</p></a>
+                </div>
+              </div>
+              <div class="project-buttons">
+                <p><a href="https://rikkeblom.com/trump-tweets/" target="_blank" class="btn">Play the game</a></p>
+                <p><a href="https://github.com/rikkeblom/project---Trump-Tweets" target="_blank" class="btn secondary">Github repository</a></p>
+              </div>
+            </div>
+            <video controls src="img/trump.mp4" class="modal__video"></video>
+          </div>
+          <div class="sushi hidden">
+            <img class="modal__image" src="img/nishikisushi.PNG" alt="nishikisushi screenshot">
+            <div class="modal__text">
+              <div>
+                <h2>Nishiki Sushi</h2>
+                <p class="modal__text__tagline" >React site w. takeaway ordering system and table booking</p>
+                <p class="modal__text__description">
+                  I created this site in collaboration with 2 classmates as our final project for AP in Multimedia Design. 
+                  The project is based around the sushi restaurant Nishiki Sushi located in Frederiksund and involved:
+                  <ul>
+                    <li>market and competitor research and analysis,</li>
+                    <li>target group analysis,</li>
+                    <li>audit of their current solution,</li>
+                    <li>creating a new visual identity guide,</li>
+                    <li>wireframing,</li>
+                    <li>prototyping,</li>
+                    <li>developing the new site in react:</li>
+                      <ul class="secondaryUl">
+                        <li>contact form,</li>
+                        <li>database of dishes,</li>
+                        <li>takeaway system,</li>
+                        <li>checkout forms,</li>
+                        <li>table ordering system</li>
+                      </ul>
+                    <li>and testing of both the figma prototype and developed site</li>
+                  </ul> 
+                </p>
+                <div class="modal__text__links">
+                  <a target="_blank" href="documents/4th_semester_final_project-group_DragonRiders.pdf"><p>Read the project report</p></a>
+                  <a target="_blank" href="documents/4th_semester_final_project-group_DragonRiders.pdf"><p>See brand identity guide</p></a>
+                </div>
+              </div>
+              <div class="project-buttons">
+                <a href="https://nishikisushi-copy.netlify.app/" target="_blank" class="btn"><p>Visit the site</p></a>
+                <a href="https://github.com/rikkeblom/nishiki_sushi" target="_blank" class="btn secondary"><p>Github repository</p></a>
+              </div>
+            </div>
+          </div>
+          <div class="momondo hidden">
+            <img class="modal__image" src="img/momondo1.PNG" alt="nishikisushi screenshot">
+            <div class="modal__text">
+              <div>
+                <h2>Momondo frontpage clone</h2>
+                <p class="modal__text__tagline" >PHP project w. APIs</p>
+                <p class="modal__text__description">
+                  PHP project based on the site momondo.dk featuring: 
+                  <ul>
+                    <li>language strings to change between English and Danish,</li>
+                    <li>a small database with airports,</li>
+                    <li>an api that gets and displays search result matches while the user is typing,</li>
+                    <li>a login and signup system with validation and feedback,</li>
+                    <li>and a responsive UI</li>
+                  </ul> 
+                </p>
+              </div>
+              <div class="project-buttons">
+                <a href="https://rikkeblom.com/momondo-clone/" target="_blank" class="btn"><p>Visit the sitee</p></a>
+                <a href="https://github.com/rikkeblom/Momondo_UI_Clone" target="_blank" class="btn secondary"><p>Github repository</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
     <footer>
       <div id="footerSoMe">
         <a target="_blank" href="https://github.com/rikkeblom" class="someicon"><i class="fab fa-github"></i></a>
